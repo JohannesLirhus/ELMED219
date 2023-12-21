@@ -1,6 +1,4 @@
 # Lab 0: Introduction to theory and tools for machine learning
- 
- 
 This lab will give a quick example-based introduction to basic ideas in machine learning, using Python and scikit-learn. 
 
 
