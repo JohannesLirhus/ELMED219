@@ -1,11 +1,11 @@
 # Lab 3: Generative AI and Large Language Models
 
-This lab is part of our journey through computational modeling techniques and AI in biomedical and clinical applications. It is designed to give you a comprehensive understanding of how generative AI is transforming society in general and healthcare in particular and the role it will play in the future of medicine.<br>  _update: 2023-12-16_
+This lab is part of our journey through computational modeling techniques and AI in biomedical and clinical applications. It is designed to give you a comprehensive understanding of how generative AI is transforming society in general and healthcare in particular and the role it will play in the future of medicine.<br>  _update: 2023-12-28_
 
 
 <!-- ![img](../assets/GPT-MedAI.png)<br> -->
 <img src="../assets/GPT-MedAI.png" width="600"><br>
-If you have a subscription to [ChatGPT Plus](https://openai.com/blog/chatgpt-plus), you can also try out the the [**Medical AI Assistant (UiBmed - ELMED219 & BMED365)**](https://chat.openai.com/g/g-d90dfN17H-medical-ai-assistant-uibmed-elmed219-bmed365) <br> [GPT](https://openai.com/blog/introducing-gpts) and see if you can get it to answer some of your questions.
+If you have a subscription to [ChatGPT Plus](https://openai.com/blog/chatgpt-plus), you can also try out the the [**Medical AI Assistant (UiBmed - ELMED219 & BMED365)**](https://chat.openai.com/g/g-d90dfN17H-medical-ai-assistant-uibmed-elmed219-bmed365) <br> [GPT](https://openai.com/blog/introducing-gpts) and see if you can get it to answer some of your questions. See also [_Q&A-in-the-wild_](./Q&A-in-the-wild.md)
 
 ## Learning motivations - watch these
 (in the order of duration ...)
@@ -15,6 +15,8 @@ If you have a subscription to [ChatGPT Plus](https://openai.com/blog/chatgpt-plu
    - and get informed and be inspired by [Azeem Azhar](https://www.linkedin.com/in/azhar/?originalSubdomain=uk)’s 2020 conversation with the pioneering AI scientist [Fei-Fei Li](https://en.wikipedia.org/wiki/Fei-Fei_Li), professor of computer science at Stanford University and the founding co-director of Stanford’s Human-Centered AI Institute [[link](https://hbr.org/podcast/2023/11/azeems-picks-the-promise-of-ai-with-fei-fei-li)] (37:46 min)
 
 - _Introducing GPT-4_ by [**OpenAI**](https://openai.com) [[link](https://www.youtube.com/watch?v=--khbXchTeE)] (3:12 min)
+
+- _What ChatGPT is and what it's not: A three minutes guide_ by [Richard Van Noorden](https://www.linkedin.com/in/richard-van-noorden), Features Editor, _Nature_  [[link](https://youtu.be/f70ME-IfeMU)] (3:51 min)
   
 - _The Exciting, Perilous Journey Toward AGI_, **TED talk** by [Ilya Sutskever](https://en.wikipedia.org/wiki/Ilya_Sutskever) (OpenAI) [[link](https://www.youtube.com/watch?v=SEkGLj0bwAU)] (12:25 min)
 
@@ -41,7 +43,9 @@ If you have a subscription to [ChatGPT Plus](https://openai.com/blog/chatgpt-plu
 - _Large Language Models and The End of Programming_, CS50 Tech Talk with [Matt Welsh](https://en.wikipedia.org/wiki/Matt_Welsh_\(computer_scientist\)) [[link](https://www.youtube.com/watch?v=JhCl-GeT4jw)]  (66:55 min)
   - [CS50](https://www.edx.org/cs50) is Harvard University's introduction to the intellectual enterprises of computer science and the art of programming
 
+- _Large Language Models (LLMs) Concenpts_, [DataCamp](https://app.datacamp.com) interactive course, Beginner (+ [Understanding Machine Learning](https://app.datacamp.com/learn/courses/understanding-machine-learning)), **15 videos**, **50 exercises**, [[link](https://app.datacamp.com/learn/courses/large-language-models-llms-concepts)] (~120 min)
 
+  
 ### Readings:
 (in the order of most recent ...)
 
@@ -53,6 +57,32 @@ If you have a subscription to [ChatGPT Plus](https://openai.com/blog/chatgpt-plu
 
 - Moore M et al. _Foundation models for generalist medical artificial intelligence_ (perspective article published 12 Apr 2023) Nature 2023;616:259–265. A seminal paper on foundation models in medicine (GMAI). [[link](https://www.nature.com/articles/s41586-023-05881-4)]
   
+
+## OpenAI: Prompt engineering guide
+
+This **guide (https://platform.openai.com/docs/guides/prompt-engineering)** is highly recommended and shares strategies and tactics for getting better results from large language models like GPT-4. The methods (Six strategies, each with a set of tactics) described in this guide can sometimes be combined for greater effect. Experimentation is encouraged to find the methods that work best for your intentions.
+
+### The Six strategies for getting better results:
+
+- **Write clear instructions** [[link](https://platform.openai.com/docs/guides/prompt-engineering/strategy-write-clear-instructions)]
+- **Provide reference text** [[link](https://platform.openai.com/docs/guides/prompt-engineering/strategy-provide-reference-text)]
+- **Split complex tasks into simpler subtasks** [[link](https://platform.openai.com/docs/guides/prompt-engineering/strategy-split-complex-tasks-into-simpler-subtasks)]
+- **Give the model time to "think"** [[link](https://platform.openai.com/docs/guides/prompt-engineering/strategy-give-models-time-to-think)]
+- **Use external tools** [[link](https://platform.openai.com/docs/guides/prompt-engineering/strategy-use-external-tools)]
+- **Test changes systematically** [[link](https://platform.openai.com/docs/guides/prompt-engineering/strategy-test-changes-systematically)]
+
+
+### Other OpenAI resources
+
+- Experiment with [ChatGPT](https://chat.openai.com)
+- Stay updated with the [OpenAI Blog](https://openai.com/blog)
+- Try the API in the [OpenAI Playground](https://beta.openai.com/playground) (a platform to interact with AI models)
+- Read about the API in the [OpenAI Documentation](https://beta.openai.com/docs/introduction)
+- Get help in the [OpenAI Help Center](https://help.openai.com/en)
+- Discuss the API in the [OpenAI Community Forum](https://community.openai.com/top?period=monthly) or [OpenAI Discord channel](https://discord.com/invite/openai)
+- See example prompts in the [OpenAI Examples](https://beta.openai.com/examples)
+
+---------------
 
 ## Slides
 
