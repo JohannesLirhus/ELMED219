@@ -15,7 +15,7 @@ The [course](https://www.uib.no/en/course/BMED365) is offered by the [Department
 
 <img src="./assets/elmed219_logo.png" width="700"> <br>
 
-The objective and content of the course address: The computational mindset, imaging, modeling, machine learning, and AI in future medicine, as well as ethical and regulatory aspects of AI. The course is a guided "journey" with a hands-on component through selected computational modeling techniques within biomedical and clinical applications. Examples, demonstrations, and tasks will be related to in vivo imaging (MRI) and segmentation, biomarkers and prediction, network analysis ("patient similarity networks"), multimodal data, as well as large language models ("foundation models") within medicine and health. Throughout the course, students will use principles and modern tools for data analysis, machine learning, and generative AI (e.g. ChatGPT) within medical applications. This will give the students an introduction to Python and Jupyter notebooks, use of the "cloud" for access to open data, calculations, and knowledge, as well as insight into and rationale for "open science" and "reproducible research". All course material is openly available on this GitHub repository.
+The objective and content of the course address: The computational mindset, imaging, modeling, machine learning, and AI in future medicine, as well as ethical and regulatory aspects of AI. The course is a guided "journey" with a hands-on component through selected computational modeling techniques within biomedical and clinical applications. Examples, demonstrations, and tasks will be related to in vivo imaging (MRI) and segmentation, biomarkers and prediction, network analysis ("patient similarity networks"), multimodal data, as well as large language models ("foundation models") within medicine and health. Throughout the course, students will use principles and modern tools for data analysis, machine learning, and generative AI (e.g. ChatGPT) within medical applications. This will give the students an introduction to Python and Jupyter notebooks, use of the "cloud" for access to open data, calculations, and knowledge, as well as insight into and rationale for "open science" and "reproducible research". All course material is openly available on this GitHub repository. (See also [BMED365](https://github.com/MMIV-ML/BMED365))
 
 
 - This repository contains most of the course material. Students enrolled in the course will also find some practical information at [MittUiB](https://mitt.uib.no/courses/45080).
@@ -40,39 +40,39 @@ The objective and content of the course address: The computational mindset, imag
 | **TIME**                    | ACTIVITY                                                                               |
 | --------------------------- | -------------------------------------------------------------------------------------- |
 | **Week 1<br> Tue, Jan 2**   |                                                                                        |
-| _On your own_               | Get an overview of the course; installation of software and/or test out Google Colab   |
+| _On your own_               | Get an [overview of the course](https://docs.google.com/presentation/d/e/2PACX-1vSWy5OFMCYXF74CveeTSkEhuL1zwhKUFVe8Y-_gya6h4RfM7Ce6RP8XifS4QleOo7cPrjZOCdRu_IfW/pub?start=false&loop=false&delayms=3000); installation of software and/or test out Google Colab   |
 |                             | Follow the instructions at [**setup.md**](./setup.md) and  [MittUiB](https://mitt.uib.no/courses/45080)                |
 | **Week 1<br> Wed, Jan 3**   |                                                                                        |
-| 10:15-14:00                 | Information, [SW-installation](./setup.md)<br> Motivation lectures<br>&nbsp;- [Computational medicine](https://docs.google.com/presentation/d/e/2PACX-1vS5O7UsFk9c9-cS2KBTDxPq2MPdSjCa6z1RWQ8cPvWqtiQOkIpvFnPdZgccAbVr8cPAyOlLwuijHbPX/pub?start=false&loop=false&delayms=3000) <br>&nbsp;- [Medical AI](https://docs.google.com/presentation/d/e/2PACX-1vQeoCzJLs1ljzFROOLjvzhyB3MZ9bCRPeVk1WAT3gY8gBO3W70Rfxxugfue198wIwFTyajvBzbTn-Qr/pub?start=false&loop=false&delayms=3000)    |
-|                             | *Arvid Lundervold / Alexander S. Lundervold*   |                                |
+| 10:15-14:00<br>BB Hist 1    | Information [About the course](https://docs.google.com/presentation/d/e/2PACX-1vSWy5OFMCYXF74CveeTSkEhuL1zwhKUFVe8Y-_gya6h4RfM7Ce6RP8XifS4QleOo7cPrjZOCdRu_IfW/pub?start=false&loop=false&delayms=3000) <br> Motivation lectures<br>&nbsp;- [Computational medicine](https://docs.google.com/presentation/d/e/2PACX-1vS5O7UsFk9c9-cS2KBTDxPq2MPdSjCa6z1RWQ8cPvWqtiQOkIpvFnPdZgccAbVr8cPAyOlLwuijHbPX/pub?start=false&loop=false&delayms=3000) <br>&nbsp;- [Medical AI](https://docs.google.com/presentation/d/e/2PACX-1vQeoCzJLs1ljzFROOLjvzhyB3MZ9bCRPeVk1WAT3gY8gBO3W70Rfxxugfue198wIwFTyajvBzbTn-Qr/pub?start=false&loop=false&delayms=3000)    |
+|                             | *Arvid Lundervold*                                                                     |                                |
 | **Week 1<br>Thu, Jan 4**    |                                                                                        |
-| 14:15-15:00                 | About the course <br> [Tools](https://docs.google.com/presentation/d/e/2PACX-1vRdRU-f2zRfXkuTjIu2xq1tBig-cR2_gauXl3GlQhhB8Yh68wV5qzkySJWHOhU3dfcrNCNBhdZfxSUT/pub?start=false&loop=false&delayms=3000), [teams] and [project](./Project)                        |
-|                             | *Arvid Lundervold  / N.N.*                                                             |
-| 15:15-16:00                 | [LAB 0: Introduction to theory and tools for machine learning](./Lab0-ML)              |
+| 14:15-15:00<br>BB Hist 1    | [SW-installation](./setup.md)<br> [Tools](https://docs.google.com/presentation/d/e/2PACX-1vRdRU-f2zRfXkuTjIu2xq1tBig-cR2_gauXl3GlQhhB8Yh68wV5qzkySJWHOhU3dfcrNCNBhdZfxSUT/pub?start=false&loop=false&delayms=3000), [[teams](https://docs.google.com/presentation/d/e/2PACX-1vRc51VLi_fbENjJxXWjKg9i8F05IRoDl7TWmXGqbOc-AnmyOS_VaonCzgSOsT0aAgfH1lvHzc2y_F-F/pub?start=false&loop=false&delayms=3000)] and [project](./Project)            |
+|                             | *Arvid Lundervold  / Ben Bjørsvik*                                                     |
+| 15:15-16:00<br>BB Hist 1    | [LAB 0: Introduction to theory and tools for machine learning](./Lab0-ML)              |
 |                             | *Ben Bjørsvik / Arvid Lundervold*                                                      |
 | **Week 1<br>Fri, Jan 5**    |                                                                                        |
-| 10:15-11:00                 | [LAB 0: Introduction to theory and tools for machine learning](./Lab0-ML) cont.        |
-|                             | [LAB 0: Network science and patient similarity networks (PSN)](./Lab0-ML)              |
+| 10:15-11:00<br>BB Hist 1    | [LAB 0: Introduction to theory and tools for machine learning](./Lab0-ML) cont.        |
 |                             | *Ben Bjørsvik / Arvid Lundervold*                                                      |
-| 11:15-13:00                 | [LAB 0: Network science and patient similarity networks (PSN)](./Lab0-ML) cont.        |
-|                             | [LAB 1: Brain imaging (mpMRI) in glioma](./Lab1-mpMRI-glioma)                                         |
+| 11:15-15:00<br>BB Hist 1    | [LAB 0: Network science and patient similarity networks (PSN)](./Lab0-ML)              |
+|                             | [LAB 1: Brain imaging (mpMRI) in glioma](./Lab1-mpMRI-glioma)                          |
 |                             | *Arvid Lundervold*                                                                     |
 |                             |                                                                                        |
 | **Week 2<br>Tue, Jan 9**    |                                                                                        |
-| 08:15-13:00                 | [Lab 2: Deep learning](./Lab2-DL)                                                                 |
-|                             | *N.N. / Arvid Lundervold*                                                              |
+| 09:15-13:00<br>BB Hist 1    | Crash-course in Python programming                                                     |
+|                             |  *Ben Bjørsvik*                                                                        |
 | **Week 2<br>Fri, Jan 12**   |                                                                                        |
-| 08:15-13:00                 | [Lab 3: Generative AI / Large Language Models](./Lab3-GenAI)                           |
-|                             | *Arvid Lundervold*                                                                     |
+| 08:15-13:00<br>BB Hist 1    |  [Lab 2: Deep learning](./Lab2-DL)                                                     |
+|                             | *Arvid Lundervold / N.N.*                                                              |
 | **Week 3<br>Team project**  |  Joint with BMED365 - Working on project in interdisciplinary teams                    |
 | **Week 3<br>Tue, Jan 16**   |                                                                                        |
-| 09:00-12:00                 | Crash-course in Python programming                                                     |
-|                             | *Ben Bjørsvik*                                                                         |
-| 13:00-16:00                 | Meet-up for team project brainstorming and coaching                                    |
+| 09:15-12:00<br>BB Hist 1    | [Lab 3: Generative AI / Large Language Models](./Lab3-GenAI)                           |
+|                             | *Arvid Lundervold*                                                                     |
+|                             |                                                                                        |
+| 13:15-16:00<br>BB Hist 1    | Meet-up for team project brainstorming and coaching                                    |
 |                             | *Arvid Lundervold / N.N.*                                                              |
 |  **Week 4<br>Wed, Jan 24**  |                                                                                        |
-| 08:15-10:00                 | Project presentations by team  (jointly with BMED365)                                  |
-|                             | *Arvid Lundervold / N.N.*                                                              |
+| 08:15-10:00<br>BB Hist 1    | Project presentations by team  (jointly with BMED365)                                  |
+|                             | *Arvid Lundervold / Ben Bjørsvik*                                                      |
 | **Week 4<br>Fri, Jan 26**   |                                                                                        |
 | 16:00                       | Deadline for the Team Project Report - joint with BMED365 (hand in via MittUiB)        |
 |**Fri, Jan 26** | 
